@@ -1,0 +1,11 @@
+{
+  "name": "gwend-cli",
+  "version": "0.0.1",
+  "description": "A cli for gwend boilerplate",
+  "main": "index.js",
+  "author": "Guilherme Caruso",
+  "license": "MIT",
+  "bin": {
+    "gwend": "./bin/gwend.js"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "list": [
+        "create",
+        "repair",
+        "destroy"
+    ],
+    "priority": {
+        "create": 0,
+        "repair": 1,
+        "destroy": 2  
+    },
+    "scripts": {
+        "create": {
+            "file": "create.js"
+        },
+        "repair": {
+            "file": "repair.js"
+        },
+        "destroy": {
+            "file": "destroy.js"
+        }
+    }
+}
