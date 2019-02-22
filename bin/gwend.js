@@ -16,8 +16,12 @@ gwendCli.checkArgs()
 })
 .catch((e)=> {
     if(e.length == 1) {
+
         console.log(`Invalid argument: ${e}`)
+
     }else [
+
         console.log(`Invalid arguments: ${e}`)
+        
     ]
 })

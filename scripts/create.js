@@ -9,7 +9,7 @@ module.exports = function () {
     rl.question('Project Name: ', (name) => {
         rl.question('Version: ', (version) =>{
             console.log("> Creating project...")
-            exec(`git clone https://github.com/GuilhermeCaruso/Gwend ${name}`, (err, stdout, stderr)=>{
+            exec(`git clone https://github.com/GuilhermeCaruso/gwend ${name}`, (err, stdout, stderr)=>{
                 if (err) {
                     console.log(err)
                     return
